@@ -196,7 +196,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
    };
 
    if ((event.body.toLowerCase() == "ami kawsar") || (event.body.toLowerCase() == "kire")) {
-     return api.sendMessage("হ্যা বস কেমন আছেন..?🫡🫡", threadID);
+     return api.sendMessage("আরে কাওসার ভাই যে, আরে বসেন৷ 🫡🫡", threadID);
    };
   mess = "{name}"
   
