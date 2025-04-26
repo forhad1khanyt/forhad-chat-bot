@@ -1,7 +1,7 @@
 module.exports.config = {
   name: "out",
   version: "1.0.0",
-  hasPermssion: 2,
+  hasPermssion: 1,
   credits: "MAHBUB SHAON",
   description: "out box",
   commandCategory: "Admin",
