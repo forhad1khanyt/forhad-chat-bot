@@ -111,7 +111,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage("🥰-কাউসার-🌺 আমার বস ফরহাদ'র বন্ধু লাগে লুচ্ছি বেডি'রা দূরে থাক😠🥰⛏️", threadID);
    };
 
-   if ((event.body.toLowerCase() == "KISS ME") || (event.body.toLowerCase() == "kiss me")) {
+   if ((event.body.toLowerCase() == "kiss me") || (event.body.toLowerCase() == "kiss me")) {
      return api.sendMessage("️ তুমি পঁচা তোমাকে কিস দিবো না 🤭 পারলে তুমি দিতে পারো😌", threadID);
    };
 
@@ -131,7 +131,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage("️MY NAME IS °_>boss of forhad", threadID);
    };
 
-   if ((event.body.toLowerCase() == "BOT ER BACCHA") || (event.body.toLowerCase() == "Bot er bacca")) {
+   if ((event.body.toLowerCase() == "Bot ar baccha") || (event.body.toLowerCase() == "Bot er bacca")) {
      return api.sendMessage("️আমার বাচ্চা তো তোমার গার্লফ্রেন্ডের পেটে..!!🌚⛏️🌶️ ", threadID);
    };
 
